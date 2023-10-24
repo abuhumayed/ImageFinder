@@ -1,21 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
 
 body {
-  background-color: #e09082;
-  background-image: linear-gradient(315deg, #e09082 0%, #f8dba4 74%);
-  /* background-color: #edd5bd; */
-  font-family: 'Comic Neue', cursive;
-  line-height: 1.6;
-  margin: 0;
+  background-color: #f2f2f2;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  color: #575451;
+  color: #61aab3;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #61aab3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#logo:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transform: rotate(10deg);
 }
 
 form {
@@ -88,6 +103,7 @@ form {
   color: #575451;
   text-decoration: none;
   transition: background-color 0.3s ease-in-out;
+  text-transform: capitalize;
 }
 .search-result:hover a {
   background-color: rgba(97, 170, 179, 0.9);
