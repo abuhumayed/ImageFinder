@@ -82,7 +82,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 1200px;
+  max-width: 1600px;
 }
 
 .search-result {
